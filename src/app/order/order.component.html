@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-xs-1">
+    <div *ngFor="let menu of order; index as id">
+      <div class="card mx-auto mt-4 mb-5">
+        <img src="{{ menu.img }}" class="card-img-top" alt="{{ menu.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ menu.name }}</h5>
+          <p class="card-text">{{ menu.price }}</p>
+          <p class="card-text">{{ menu.details }}</p>
+          <p class="card-text">{{ menu.details }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+div {
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+  background-color: beige;
+}
+
+p {
+  left: 18%;
+  top: 30%;
+  position: absolute;
+  color: gray;
+  font-size: 4rem;
+  font-family: monospace;
+  text-shadow: 0 0 20px darkgray;
+}
